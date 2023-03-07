@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07c34cf5-228c-4d07-92b0-30ca6159a76a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/IfElse.java" afterDir="false" />
+    <list default="true" id="07c34cf5-228c-4d07-92b0-30ca6159a76a" name="Changes" comment="if else practice question">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaLoopII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OneDimensionalArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,14 +41,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\2185578\UpSkilling\HackerRank\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IfElse">
+  <component name="RunManager" selected="Application.OneDimensionalArray">
     <configuration name="IfElse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IfElse" />
+      <module name="HackerRank.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaLoopII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaLoopII" />
+      <module name="HackerRank.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OneDimensionalArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OneDimensionalArray" />
+      <module name="HackerRank.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Palindrome" />
       <module name="HackerRank.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -70,11 +100,17 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.JavaLoopII" />
+      <item itemvalue="Application.OneDimensionalArray" />
+      <item itemvalue="Application.Palindrome" />
       <item itemvalue="Application.IfElse" />
       <item itemvalue="Gradle.HackerRank" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OneDimensionalArray" />
+        <item itemvalue="Application.JavaLoopII" />
+        <item itemvalue="Application.Palindrome" />
         <item itemvalue="Application.IfElse" />
       </list>
     </recent_temporary>
@@ -88,6 +124,14 @@
       <option name="presentableId" value="Default" />
       <updated>1677103490316</updated>
     </task>
+    <task id="LOCAL-00001" summary="if else practice question">
+      <created>1677107034524</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677107034524</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -100,5 +144,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="if else practice question" />
+    <option name="LAST_COMMIT_MESSAGE" value="if else practice question" />
   </component>
 </project>

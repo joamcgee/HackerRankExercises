@@ -5,14 +5,18 @@ public class Palindrome {
 
         Scanner sc = new Scanner(System.in);
         String A = sc.next();
-        String B = new StringBuilder(A).reverse().toString();
 
+        checkPalindrome(A);
+
+    }
+
+    public static void checkPalindrome(String A) {
+        String B = new StringBuilder(A).reverse().toString();
         if (A.equals(B)) {
             System.out.println("Yes");
         } else {
             System.out.println("No");
-        }
-
+        } return;
     }
 }
 

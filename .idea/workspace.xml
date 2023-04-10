@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07c34cf5-228c-4d07-92b0-30ca6159a76a" name="Changes" comment="solved">
-      <change afterPath="$PROJECT_DIR$/src/main/java/coding/interview/questions/FizzBuzz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coding/interview/questions/MonotonicArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coding/interview/questions/RotateArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coding/interview/questions/SortedSquaredArry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/twoDArray.java" afterDir="false" />
+    <list default="true" id="07c34cf5-228c-4d07-92b0-30ca6159a76a" name="Changes" comment="added some new coding question solutions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/coding/interview/questions/RotateArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coding/interview/questions/RotateArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twoDArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/twoDArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +48,7 @@
       <recent name="C:\Users\2185578\UpSkilling\HackerRank\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RotateArray">
+  <component name="RunManager" selected="Application.twoDArray">
     <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="coding.interview.questions.FizzBuzz" />
       <module name="HackerRank.main" />
@@ -160,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678214860916</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added some new coding question solutions">
+      <created>1680302371244</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680302371244</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,6 +180,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="if else practice question" />
     <MESSAGE value="solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="solved" />
+    <MESSAGE value="added some new coding question solutions" />
+    <option name="LAST_COMMIT_MESSAGE" value="added some new coding question solutions" />
   </component>
 </project>

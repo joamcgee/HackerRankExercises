@@ -1,3 +1,5 @@
+package coding.interview.questions;
+
 import java.util.*;
 import java.util.Scanner;
 

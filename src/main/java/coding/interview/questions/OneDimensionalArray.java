@@ -1,4 +1,4 @@
-//Task
+package coding.interview.questions;//Task
 //  Write the following code in the unlocked portion of your editor:
 //  Create an array, , capable of holding  integers.
 //  Modify the code in the loop so that it saves each sequential value to its corresponding location in the array.

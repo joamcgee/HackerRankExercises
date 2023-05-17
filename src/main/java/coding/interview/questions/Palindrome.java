@@ -1,3 +1,5 @@
+package coding.interview.questions;
+
 import java.util.Scanner;
 
 public class Palindrome {
@@ -11,7 +13,7 @@ public class Palindrome {
     }
 
     public static void checkPalindrome(String A) {
-        String B = new StringBuilder(A).reverse().toString();
+        String B = new StringBuilder(A).reverse().toString(); //Will reverse the A string and host in B variable.
         if (A.equals(B)) {
             System.out.println("Yes");
         } else {

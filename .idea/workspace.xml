@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07c34cf5-228c-4d07-92b0-30ca6159a76a" name="Changes" comment="added some new coding question solutions">
-      <change afterPath="$PROJECT_DIR$/src/main/java/coding/interview/questions/CountChars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coding/interview/questions/CountTheVowels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coding/interview/questions/EvenOrOddNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coding/interview/questions/ReverseANumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Java/coding/interview/questions/ReverseANumberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coding/interview/questions/VendingMachine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/IfElse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coding/interview/questions/IfElse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaLoopII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coding/interview/questions/JavaLoopII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OneDimensionalArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coding/interview/questions/OneDimensionalArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coding/interview/questions/Palindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/twoDArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coding/interview/questions/twoDArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +70,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
     "create.test.in.the.same.root": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/jojom/IdeaProjects/BnymPerProjBE",
+    "last_opened_file_path": "C:/Users/jojom/IdeaProjects/HackerRankExercises",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -100,7 +90,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CountTheVowels">
+  <component name="RunManager" selected="Application.VendingMachine">
     <configuration name="CountChars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="coding.interview.questions.CountChars" />
       <module name="HackerRank.main" />
@@ -116,6 +106,19 @@
     </configuration>
     <configuration name="CountTheVowels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="coding.interview.questions.CountTheVowels" />
+      <module name="HackerRank.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="coding.interview.questions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VendingMachine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coding.interview.questions.VendingMachine" />
       <module name="HackerRank.main" />
       <extension name="coverage">
         <pattern>
@@ -184,45 +187,21 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="ReverseANumberTest.testReverseThisNumber" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;coding.interview.questions.ReverseANumberTest.testReverseThisNumber&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <list>
+      <item itemvalue="Application.VendingMachine" />
       <item itemvalue="Application.CountChars" />
       <item itemvalue="Application.CountTheVowels" />
       <item itemvalue="Application.example" />
       <item itemvalue="Gradle.HackerRank" />
       <item itemvalue="Gradle.ReverseANumberTest" />
-      <item itemvalue="Gradle.ReverseANumberTest.testReverseThisNumber" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VendingMachine" />
         <item itemvalue="Application.example" />
         <item itemvalue="Application.CountTheVowels" />
         <item itemvalue="Application.CountChars" />
         <item itemvalue="Gradle.ReverseANumberTest" />
-        <item itemvalue="Gradle.ReverseANumberTest.testReverseThisNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680302371244</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added some new coding question solutions">
+      <created>1684337112277</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684337112277</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

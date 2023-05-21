@@ -10,8 +10,8 @@ package coding.interview.questions;//Task
 
 import java.util.Scanner;
 
-public class OneDimensionalArray {
-    public static void main(String[] args) {
+public class OneDimensionalArray extends Exception{
+    public static void main(String[] args) throws ArrayIndexOutOfBoundsException {
 
         Scanner scan = new Scanner(System.in);
         int n = scan.nextInt();

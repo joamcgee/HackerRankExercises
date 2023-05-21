@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07c34cf5-228c-4d07-92b0-30ca6159a76a" name="Changes" comment="added some new coding question solutions">
-      <change afterPath="$PROJECT_DIR$/src/main/java/coding/interview/questions/VendingMachine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/coding/interview/questions/CountChars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coding/interview/questions/DuplicatesAndCharCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/coding/interview/questions/CountTheVowels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coding/interview/questions/CountTheVowels.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/coding/interview/questions/OneDimensionalArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coding/interview/questions/OneDimensionalArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,9 +92,9 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.VendingMachine">
-    <configuration name="CountChars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coding.interview.questions.CountChars" />
+  <component name="RunManager" selected="Application.DuplicatesAndCharCount">
+    <configuration name="CountTheVowels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coding.interview.questions.CountTheVowels" />
       <module name="HackerRank.main" />
       <extension name="coverage">
         <pattern>
@@ -104,8 +106,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountTheVowels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coding.interview.questions.CountTheVowels" />
+    <configuration name="DuplicatesAndCharCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coding.interview.questions.DuplicatesAndCharCount" />
+      <module name="HackerRank.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="coding.interview.questions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OneDimensionalArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coding.interview.questions.OneDimensionalArray" />
       <module name="HackerRank.main" />
       <extension name="coverage">
         <pattern>
@@ -163,45 +178,21 @@
       <ForceTestExec>false</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="ReverseANumberTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;coding.interview.questions.ReverseANumberTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <list>
+      <item itemvalue="Application.DuplicatesAndCharCount" />
+      <item itemvalue="Application.OneDimensionalArray" />
       <item itemvalue="Application.VendingMachine" />
-      <item itemvalue="Application.CountChars" />
       <item itemvalue="Application.CountTheVowels" />
       <item itemvalue="Application.example" />
       <item itemvalue="Gradle.HackerRank" />
-      <item itemvalue="Gradle.ReverseANumberTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OneDimensionalArray" />
         <item itemvalue="Application.VendingMachine" />
         <item itemvalue="Application.example" />
         <item itemvalue="Application.CountTheVowels" />
-        <item itemvalue="Application.CountChars" />
-        <item itemvalue="Gradle.ReverseANumberTest" />
+        <item itemvalue="Application.DuplicatesAndCharCount" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684337112277</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added some new coding question solutions">
+      <created>1684528792643</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684528792643</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

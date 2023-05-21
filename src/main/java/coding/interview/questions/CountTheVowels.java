@@ -8,13 +8,12 @@ import java.util.Scanner;
 public class CountTheVowels {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String str = sc.next();
-        String str1  = str.replaceAll("\\s", "");
+        String str = sc.nextLine();
         List<Character> vowels = List.of('a','e','i','o','u'); //list of vowels
         List<Character> vowelsFromString = new ArrayList<>(); //empty Arraylist to host vowels from string
         int count = 0;
 
-        for(char c : str1.toCharArray()){ //for each character in the string variable, store in character array.
+        for(char c : str.toCharArray()){ //for each character in the string variable, store in character array.
             if(vowels.contains(Character.toLowerCase(c))) { // if vowels list contains a character from the string-char-array.
                 vowelsFromString.add(c); //add the character to vowelsFromString Arraylist.
                 count++; //add to the count for the number of matching characters

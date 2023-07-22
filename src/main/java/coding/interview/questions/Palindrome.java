@@ -4,21 +4,31 @@ import java.util.Scanner;
 
 public class Palindrome {
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
-        String A = sc.next();
+        String A = sc.nextLine();
 
-        checkPalindrome(A);
+        String B = new StringBuilder(A).reverse().toString().toLowerCase();
 
-    }
+        if(A.equals(B)){
+            System.out.println("Palindrome");
+        }else{
+            System.out.println("Not palindrome");
+        }
 
-    public static void checkPalindrome(String A) {
-        String B = new StringBuilder(A).reverse().toString(); //Will reverse the A string and host in B variable.
-        if (A.equals(B)) {
-            System.out.println("Yes");
-        } else {
-            System.out.println("No");
-        } return;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

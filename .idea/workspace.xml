@@ -6,9 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="07c34cf5-228c-4d07-92b0-30ca6159a76a" name="Changes" comment="added some new coding question solutions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/coding/interview/questions/CountChars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coding/interview/questions/DuplicatesAndCharCount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/coding/interview/questions/CountTheVowels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coding/interview/questions/CountTheVowels.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/coding/interview/questions/OneDimensionalArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coding/interview/questions/OneDimensionalArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/coding/interview/questions/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coding/interview/questions/Palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/coding/interview/questions/RotateArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coding/interview/questions/RotateArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,24 +62,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit3",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
-    "create.test.in.the.same.root": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/jojom/IdeaProjects/HackerRankExercises",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit3&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3&quot;: &quot;junit.framework.TestCase&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers&quot;: &quot;true&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Java Projects/MELT&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\2185578\UpSkilling\HackerRank\src\main\java" />
@@ -92,7 +93,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DuplicatesAndCharCount">
+  <component name="RunManager" selected="Application.Palindrome">
     <configuration name="CountTheVowels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="coding.interview.questions.CountTheVowels" />
       <module name="HackerRank.main" />
@@ -106,8 +107,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DuplicatesAndCharCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coding.interview.questions.DuplicatesAndCharCount" />
+    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coding.interview.questions.Palindrome" />
       <module name="HackerRank.main" />
       <extension name="coverage">
         <pattern>
@@ -119,8 +120,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OneDimensionalArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coding.interview.questions.OneDimensionalArray" />
+    <configuration name="PrimalityTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coding.interview.questions.PrimalityTest" />
       <module name="HackerRank.main" />
       <extension name="coverage">
         <pattern>
@@ -132,8 +133,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VendingMachine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coding.interview.questions.VendingMachine" />
+    <configuration name="SubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coding.interview.questions.SubString" />
       <module name="HackerRank.main" />
       <extension name="coverage">
         <pattern>
@@ -145,8 +146,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coding.interview.questions.example" />
+    <configuration name="SwitchStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coding.interview.questions.SwitchStatement" />
       <module name="HackerRank.main" />
       <extension name="coverage">
         <pattern>
@@ -179,20 +180,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.DuplicatesAndCharCount" />
-      <item itemvalue="Application.OneDimensionalArray" />
-      <item itemvalue="Application.VendingMachine" />
       <item itemvalue="Application.CountTheVowels" />
-      <item itemvalue="Application.example" />
+      <item itemvalue="Application.SubString" />
+      <item itemvalue="Application.SwitchStatement" />
+      <item itemvalue="Application.PrimalityTest" />
+      <item itemvalue="Application.Palindrome" />
       <item itemvalue="Gradle.HackerRank" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OneDimensionalArray" />
-        <item itemvalue="Application.VendingMachine" />
-        <item itemvalue="Application.example" />
         <item itemvalue="Application.CountTheVowels" />
-        <item itemvalue="Application.DuplicatesAndCharCount" />
+        <item itemvalue="Application.SwitchStatement" />
+        <item itemvalue="Application.SubString" />
+        <item itemvalue="Application.PrimalityTest" />
+        <item itemvalue="Application.Palindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -240,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684528792643</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added some new coding question solutions">
+      <created>1684632591821</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684632591822</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -259,5 +267,9 @@
     <MESSAGE value="solved" />
     <MESSAGE value="added some new coding question solutions" />
     <option name="LAST_COMMIT_MESSAGE" value="added some new coding question solutions" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

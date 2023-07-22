@@ -1,9 +1,7 @@
 package coding.interview.questions;
 
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 public class CountTheVowels {
     public static void main(String[] args) {
@@ -24,3 +22,14 @@ public class CountTheVowels {
         System.out.println("The number of vowel characters in the string: "+ count);
     }
 }
+
+
+
+
+
+
+
+
+
+
+
